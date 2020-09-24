@@ -1,0 +1,50 @@
+html, body {
+    background: linear-gradient(270deg, #8a8a8a, #ffffff, #000000, #ece964, #ecb62f, #ea6d34);
+    background-size: 1200% 1200%;
+    -webkit-animation: Gradient 30s ease infinite;
+    -moz-animation: Gradient 30s ease infinite;
+    animation: Gradient 30s ease infinite;
+}
+
+body {
+    color: white;
+}
+
+.headline {
+    font-family: 'Exo', sans-serif;
+    font-size: 35px;
+}
+
+.social-button {
+    font-size: 30px;
+}
+
+.muted
+{
+    font-family: 'Exo', sans-serif;
+    font-size: 20px;
+}
+
+a {
+    color: #ffffff !important;
+}
+
+a:hover {
+    color: #ffffff !important;
+}
+
+@-webkit-keyframes Gradient {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes Gradient {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes Gradient {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
